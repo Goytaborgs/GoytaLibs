@@ -1,3 +1,5 @@
+![logo](docs/assets/logo_goyta.svg)
+
 # GoytaLibs
 
 **GoytaLibs** é uma coleção de bibliotecas C/C++ organizadas pela equipe de robótica [Goytaborgs](https://www.goytaborgs.com.br).
@@ -33,7 +35,8 @@ Toda biblioteca adicionada à pasta `libraries/core/` deve conter:
    - Estrutura do diretório
    - Informações sobre o autor e data
    - Licença
-     > Estas informações são essenciais, mas sinta-se livre para adicionar novas informações ao seu README.
+
+   > Estas informações são essenciais, mas sinta-se livre para adicionar novas informações ao seu README.
 
    > 📄 **Modelo pronto:** utilize o arquivo [`library_readme_template.md`](docs/library_readme_template.md)(localizado na pasta `docs/`) como base para criar o `README.md` da sua biblioteca.
 
@@ -110,3 +113,8 @@ Dúvidas? Abra uma issue ou fale conosco pelo e-mail da [Goytaborgs](goytaborgs.
 ## 📜 Licença
 
 Todo o conteúdo do GoytaLibs está disponível sob a [licença MIT](https://web.mit.edu/), salvo indicação em contrário.
+
+---
+
+![logo](docs/assets/logo_goyta.svg)
+![logotipo](docs/assets/goytaborgs.svg)
