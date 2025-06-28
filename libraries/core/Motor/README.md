@@ -23,28 +23,32 @@ Ideal para uso com **ESP32**, **Arduino** e outros sistemas embarcados que supor
 ---
 
 ## ⚡ Pinagem típica do TB6612FNG
-| Pino do TB6612FNG         | Conexão sugerida                                                         |
-| --------------------------| ------------------------------------------------------------------------ |
-| AI1 / AI2 / BI1 / BI2     | GPIOs digitais                                                           |
-| PWMA / PWMB               | GPIO com suporte a PWM                                                   |
-| STBY                      | *Não gerenciado pela biblioteca – ligue no 3.3V ou controle manualmente* |
+
+| Pino do TB6612FNG     | Conexão sugerida                                                         |
+| --------------------- | ------------------------------------------------------------------------ |
+| AI1 / AI2 / BI1 / BI2 | GPIOs digitais                                                           |
+| PWMA / PWMB           | GPIO com suporte a PWM                                                   |
+| STBY                  | _Não gerenciado pela biblioteca – ligue no 3.3V ou controle manualmente_ |
 
 ```
 ⚠️Importante: a biblioteca não controla o pino STBY. Você deve garantir que ele esteja em nível alto (HIGH) para o motor funcionar.
 ```
 
 ## 📁 Estrutura
+
 ```bash
 Motor/
 ├── Motor_TB6612FNG.h       # Header principal
 ├── Motor_TB6612FNG.cpp     # Implementação
-└── example/
+└── examples/
     └── motor_demo.cpp      # Exemplo funcional de uso
 ```
 
 ## 👨‍💻 Autor
+
 - Criado por: Marllon Batista
 - Data: 5 de novembro de 2024
 
 ## 📝 Licença
+
 Este projeto está licenciado sob os termos da licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.

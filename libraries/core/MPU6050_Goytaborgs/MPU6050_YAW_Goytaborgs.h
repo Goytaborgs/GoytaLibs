@@ -11,6 +11,11 @@
  *              orientation parameter in robots equipped with the 
  *              MPU6050.
  * 
+ * Dependencies:
+ *  - Arduino.h
+ *  - I2Cdev.h
+ *  - MPU6050_6Axis_MotionApps20.h
+ * 
  * Created by: Heverton Souza - June 4, 2025
 ********************************************************************/
 
