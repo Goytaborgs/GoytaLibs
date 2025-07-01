@@ -23,7 +23,7 @@ Ideal para aplicações embarcadas com **Arduino**, **ESP32** e outras plataform
 |-------------------------|------------------------------------------- |
 | Arduino IDE             | ✅                                         |
 | PlatformIO (VSCode)     | ✅ (framework *Arduino*)                   |
-```Legenda: ⚠️ Não testado / ❌ Não compila / ✅ Funciona ```
+|```Legenda: ⚠️ Não testado / ❌ Não compila / ✅ Funciona ```|
 
 
 ### Microcontroladores testados
@@ -33,7 +33,7 @@ Ideal para aplicações embarcadas com **Arduino**, **ESP32** e outras plataform
 | ESP32 (DevKit v1)      | ✅                                   |
 | ESP32-S3               | ⚠️ (esperado funcionar)              |
 | Arduino UNO / Nano     | ⚠️ (esperado funcionar)              |
-```Legenda: ⚠️ Não testado / ❌ Imcompatível / ✅ Funciona ```
+|```Legenda: ⚠️ Não testado / ❌ Imcompatível / ✅ Funciona ```|
 
 ---
 
