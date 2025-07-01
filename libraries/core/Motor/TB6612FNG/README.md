@@ -2,7 +2,7 @@
 
 Uma biblioteca simples em C++ para controle de motores DC usando o driver em ponte H **TB6612FNG**, compatível também com outros drivers que possuam a mesma pinagem de controle.
 
-Ideal para uso com **ESP32**, **Arduino** e outros sistemas embarcados que suportem PWM.
+Ideal para uso com **ESP32** e outros sistemas embarcados que suportem PWM de forma semalhante a ele.
 
 ---
 
@@ -14,6 +14,29 @@ Ideal para uso com **ESP32**, **Arduino** e outros sistemas embarcados que supor
 - Compatível com drivers com pinos do tipo semelhantes aos da TB6612FNG
 
 ---
+
+## ✅ Compatibilidade
+
+### IDEs testadas
+
+| IDE                     | Status                                     |
+|-------------------------|------------------------------------------- |
+| Arduino IDE             | ❌                                         |
+| PlatformIO (VSCode)     | ✅ (framework *Arduino*)                   |
+```Legenda: ⚠️ Não testado / ❌ Não compila / ✅ Funciona ```
+
+
+### Microcontroladores testados
+
+| Microcontrolador       | Status                               |
+|------------------------|--------------------------------------|
+| ESP32 (DevKit v1)      | ✅                                   |
+| ESP32-S3               | ⚠️ (esperado funcionar)              |
+| Arduino UNO / Nano     | ❌                                   |
+```Legenda: ⚠️ Não testado / ❌ Imcompatível / ✅ Funciona ```
+
+---
+
 
 ## 📦 Dependências
 
@@ -37,7 +60,7 @@ Ideal para uso com **ESP32**, **Arduino** e outros sistemas embarcados que supor
 ## 📁 Estrutura
 
 ```bash
-Motor/
+Motor/TB6612FNG
 ├── Motor_TB6612FNG.h       # Header principal
 ├── Motor_TB6612FNG.cpp     # Implementação
 └── examples/

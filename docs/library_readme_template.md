@@ -13,6 +13,28 @@ Se possível, mencione compatibilidade com Arduino, ESP32 ou outro sistema.
 
 ---
 
+## ✅ Compatibilidade
+
+### IDEs testadas 
+
+
+| IDE                     | Status                                  |
+|-------------------------|-----------------------------------------|
+| Arduino IDE             | ❌                                      |
+| PlatformIO (VS Code)    | ✅                                      |
+```Legenda: ⚠️ Não testado / ❌ Não compila / ✅ Funciona ```
+
+### Microcontroladores testados
+
+| Microcontrolador        | Status                           |
+|-------------------------|----------------------------------|
+| ESP32 (DevKit v1)       | ✅                               |
+| ESP32-S3                | ⚠️ (esperado funcionar)|         |
+| Arduino Uno / Mega      | ⚠️                               |
+```Legenda: ⚠️ Não testado / ❌ Imcompatível / ✅ Funciona ```
+
+---
+
 ## 📦 Dependências
 
 - [`NomeDaDependencia.h`](https://link-documentacao)

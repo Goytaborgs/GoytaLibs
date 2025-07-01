@@ -15,6 +15,28 @@ Ideal para aplicações embarcadas com **Arduino**, **ESP32** e outras plataform
 
 ---
 
+## ✅ Compatibilidade
+
+### IDEs testadas
+
+| IDE                     | Status                                     |
+|-------------------------|------------------------------------------- |
+| Arduino IDE             | ✅                                         |
+| PlatformIO (VSCode)     | ✅ (framework *Arduino*)                   |
+```Legenda: ⚠️ Não testado / ❌ Não compila / ✅ Funciona ```
+
+
+### Microcontroladores testados
+
+| Microcontrolador       | Status                               |
+|------------------------|--------------------------------------|
+| ESP32 (DevKit v1)      | ✅                                   |
+| ESP32-S3               | ⚠️ (esperado funcionar)              |
+| Arduino UNO / Nano     | ⚠️ (esperado funcionar)              |
+```Legenda: ⚠️ Não testado / ❌ Imcompatível / ✅ Funciona ```
+
+---
+
 ## 📦 Dependências
 
 - Nenhuma dependência externa além da biblioteca padrão `cstdint`

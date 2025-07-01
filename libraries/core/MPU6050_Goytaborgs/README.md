@@ -13,7 +13,29 @@ Ideal para robôs que precisam apenas do eixo de guinada (yaw) para navegação 
 - Disponibiliza o valor de yaw em graus por meio da variável global `yaw`
 - Função de _boot_ para zerar o ângulo a qualquer momento
 - Oculta detalhes de I2C, interrupções e buffers de pacotes
-- Compatível com placas **Arduino**, **ESP32** e outras que suportem I2C
+- Compatível com **ESP32** e outras que suportem I2C
+
+---
+
+## ✅ Compatibilidade
+
+### IDEs testadas
+
+| IDE                     | Status                                     |
+|-------------------------|------------------------------------------- |
+| Arduino IDE             | ✅                                         |
+| PlatformIO (VSCode)     | ✅ (framework *Arduino*)                   |
+```Legenda: ⚠️ Não testado / ❌ Não compila / ✅ Funciona ```
+
+
+### Microcontroladores testados
+
+| Microcontrolador       | Status                               |
+|------------------------|--------------------------------------|
+| ESP32 (DevKit v1)      | ✅                                   |
+| ESP32-S3               | ⚠️ (esperado funcionar)              |
+| Arduino UNO / Nano     | ⚠️                                   |
+```Legenda: ⚠️ Não testado / ❌ Imcompatível / ✅ Funciona ```
 
 ---
 
