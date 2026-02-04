@@ -130,12 +130,11 @@ Portanto, não há nenhum problema em modificar o platformio.ini depois que o fi
 ## 📁 Estrutura
 
 ```bash
-OtaManager/
-├── OtaManager.h        # Header principal
-├── OtaManager.cpp      # Implementação
+OTA_ESP32r/
+├── OTA_ESP32.h        # Header principal
+├── OTA_ESP32.cpp      # Implementação
 └── examples/
-    └── ota_basic/
-        └── main.cpp    # Exemplo funcional de uso
+    └── ota_demo/      # Exemplo funcional de uso
 
 ```
 ---
